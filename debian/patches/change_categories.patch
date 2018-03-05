@@ -1,0 +1,17 @@
+Description: Change categories for Manokwari
+ 
+ gnome-recipes (2.0.2-2blankon1) uluwatu; urgency=medium
+ .
+   * New release
+Author: antosamalona <ansamsoftdev@gmail.com>
+
+--- gnome-recipes-2.0.2.orig/data/org.gnome.Recipes.desktop.in
++++ gnome-recipes-2.0.2/data/org.gnome.Recipes.desktop.in
+@@ -7,6 +7,6 @@ Icon=org.gnome.Recipes
+ Terminal=false
+ Type=Application
+ StartupNotify=true
+-Categories=Utility;GTK;GNOME;
++Categories=Education;GTK;GNOME;
+ DBusActivatable=true
+ MimeType=application/vnd.gnome.recipes.export;
